@@ -1,0 +1,18 @@
+might be encrypted...try trainer code xoring
+
+New perspective: trying to find trainer id for each pokemon
+this will let us know where each section for party poke starter
+
+found possible location for party poke 2 and 3
+we know that the party poke section starts at address 020244EC (bulbapedia wiki)
+
+Trainer 1 HAS to be correct since its 4 bytes after the 
+
+potential party poke 1: 020244f0
+Party poke 2 trainer id: 02024554
+Party poke 3 trainer id: 020245b8
+4: 0202461c
+5: 02024680
+6: 020246e4
+
+Prob better to do this in excel table
