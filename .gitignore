@@ -43,3 +43,6 @@ luac.out
 *.ss*
 *.gba
 *.sav
+
+# Not necessary to keep updating this
+*.xml

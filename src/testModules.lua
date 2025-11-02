@@ -521,8 +521,23 @@ end
     Main Code
 --]]
 
-pokemain = EmeraldData:new()
-EmeraldData.print(pokemain)
+function main()
+    --add check for what frame we're on so we don't call this every frame
+
+    --change seconds to decrease frequency
+    seconds = 1
+    frame = emu:currentFrame() % (60 * seconds)
+
+    if frame == 0 then
+        --this is where we would change the class called based on what game it is.
+        pokemain = EmeraldData:new()
+        EmeraldData.print(pokemain)
+    end
+    
+end
+
+--Testing callback
+callbacks:add("frame",main)
 
 --DONE change tostring to print data in json OR xml syntax for ease of use
 --DONE handle encrypted data the same way as test.lua and add values to PokeData
