@@ -8,12 +8,12 @@ Current operational script to use: src/testModules.lua
 Current output file: poke_data.xml
 
 Instructions:
-Add the mgba emulator file to this location (so the xml file prints to this same address)
-Open mgba and load Emerald.
-Under Tools click Scripting...
-In the top left of the new scripting window that opens, click File > Load Script
-Then navigate to where this folder is located and click src > testModules.lua
-There should be a console message saying "Successfully wrote all data to file." if it succeeded
+1. Add the mgba emulator file to this location (so the xml file prints to this same address)
+2. Open mgba and load Emerald.
+3. Under Tools click Scripting...
+4. In the top left of the new scripting window that opens, click File > Load Script
+5. Navigate to where this folder is located (Emerald-MGBA-XML) and click src > testModules.lua
+6. There should be a console message saying "Successfully wrote all data to file." if successful and poke_data.xml will be updated
 
 TODO:
 1. Figure out a more appropriate callback function that doesn't run every in game frame (I would rather have a callback that runs every few seconds instead of every frame if possible)
