@@ -1,6 +1,6 @@
 # Emerald-MGBA-XML
 A simple script for mgba that gets specific data from mgba's memory and prints that data to a file called poke_data.xml.
-- Tested on Windows 11 using mgba version 0.10.5
+- Tested on Windows 11 using [mGBA](https://mgba.io/downloads.html) version 0.10.5
 - This script constantly updates the xml file (currently runs every frame but I would like to change this).
 - I mainly created this for use with some sort of UI (for my use case I will be using excel) so this is just the data portion of the whole script for now.
 
