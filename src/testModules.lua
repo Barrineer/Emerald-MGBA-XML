@@ -523,7 +523,6 @@ end
 
 function main()
     --add check for what frame we're on so we don't call this every frame
-
     --change seconds to decrease frequency
     seconds = 1
     frame = emu:currentFrame() % (60 * seconds)
