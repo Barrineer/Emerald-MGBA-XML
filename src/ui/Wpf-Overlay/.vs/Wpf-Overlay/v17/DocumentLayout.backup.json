@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\mikey\\Documents\\GitHub\\Emerald-MGBA-XML\\src\\ui\\Wpf-Overlay\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{448353AD-2DCC-4F14-BBDB-46DC2A3A79BD}|Wpf-Overlay.csproj|c:\\users\\mikey\\documents\\github\\emerald-mgba-xml\\src\\ui\\wpf-overlay\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{448353AD-2DCC-4F14-BBDB-46DC2A3A79BD}|Wpf-Overlay.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{448353AD-2DCC-4F14-BBDB-46DC2A3A79BD}|Wpf-Overlay.csproj|c:\\users\\mikey\\documents\\github\\emerald-mgba-xml\\src\\ui\\wpf-overlay\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{448353AD-2DCC-4F14-BBDB-46DC2A3A79BD}|Wpf-Overlay.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +23,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\mikey\\Documents\\GitHub\\Emerald-MGBA-XML\\src\\ui\\Wpf-Overlay\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\mikey\\Documents\\GitHub\\Emerald-MGBA-XML\\src\\ui\\Wpf-Overlay\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-05T16:44:11.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\mikey\\Documents\\GitHub\\Emerald-MGBA-XML\\src\\ui\\Wpf-Overlay\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
