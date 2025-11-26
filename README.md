@@ -1,7 +1,7 @@
 # Emerald-MGBA-XML
 A simple script for mgba that gets specific data from mgba's memory and prints that data to a file called poke_data.xml.
 - Tested on Windows 11 using [mGBA](https://mgba.io/downloads.html) version 0.10.5
-- This script constantly updates the xml file (currently runs every frame but I would like to change this).
+- This script constantly updates the xml file.
 - I mainly created this for use with some sort of UI (for my use case I will be using excel) so this is just the data portion of the whole script for now.
 - Currently testing WPF for UI design
 - Resources:
@@ -20,10 +20,9 @@ Instructions:
 6. There should be a console message saying "Successfully wrote all data to file." if successful and poke_data.xml will be updated
 
 TODO:
-1. Figure out a more appropriate callback function that doesn't run every in game frame (I would rather have a callback that runs every few seconds instead of every frame if possible)
-2. Split the code into modules instead of all in one file UNLESS a single file has faster load times.
-3. Add versioning
-4. Possibly add a config file for changing things such as the game being run (Emerald,FireRed,Ruby,Sapphire) or the name of the output file for example
-5. Add data addresses for getting the data for other games than just Emerald
-6. Figure out where ability data is stored (mainly important for when a randomizer is used and the abilities for poke are shuffled)
-7. Add a standalone customizable UI (for now using excel for quickly visualizing the data)
+1. Split the code into modules instead of all in one file UNLESS a single file has faster load times.
+2. Add versioning
+3. Possibly add a config file for changing things such as the game being run (Emerald,FireRed,Ruby,Sapphire) or the name of the output file for example
+4. Add data addresses for getting the data for other games than just Emerald
+5. Figure out where ability data is stored (mainly important for when a randomizer is used and the abilities for poke are shuffled)
+6. Add a standalone customizable UI (for now using excel for quickly visualizing the data)
